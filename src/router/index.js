@@ -22,7 +22,8 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/vue', // 手动修改baseurl
+  // base: process.env.BASE_URL,
   routes
 })
 
